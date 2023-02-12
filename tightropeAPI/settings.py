@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-w03ds62l%0plo(bzavqrc$sf%za_k(^keiht1s!$mss8w&mj4c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost', 'tightropeapi.herokuapp.com','tightropeapp.heroku.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost']
 
 
 # Application definition
@@ -95,12 +95,8 @@ WSGI_APPLICATION = 'tightropeAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd89dojng79ic65',
-        'USER': 'toddghmkdouxeg', 
-        'PASSWORD': 'cec8f189bf93c9189d7a00993c9d31900e6c35a3665b73ba3771e07e2e799177',
-        'HOST': 'ec2-35-153-35-94.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
