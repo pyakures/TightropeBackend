@@ -2,7 +2,7 @@
 
 Tightrope is a calender based mental health application designed to give users a visual representation of their work-life balance and pursuade user to make an informed decision to better their mental health.
 
-This project was a senior capstone project for the computer science & enginnering department at the [University of Nevada, Reno](https://www.unr.edu/cse). The team members for this project were Mackenzie Z, Sahil P, Demitri B, Michael D, and Cooper F.
+This project was a senior capstone project for the computer science & enginnering department at the [University of Nevada, Reno](https://www.unr.edu/cse). The team members for this project were Mackenzie Z, Sahil P, Demitri B, Michael D, and Cooper F. [Learn more about Tightrope Project!](https://sites.google.com/nevada.unr.edu/tightrope/home?authuser=0)
 
 This project is a Django based python backend and uses [Tightrope](https://github.com/pyakures/Tightrope) for the front end user interface. This project was forked from the [original source code](https://github.com/mdoradocode/TightropeBackend) to update documentation.
 
